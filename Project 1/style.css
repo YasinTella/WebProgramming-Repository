@@ -1,0 +1,54 @@
+/* basic elements */
+.side {
+	height: 100vh;
+	width: 100%;
+
+
+	display: grid;
+	place-items: centre;
+	
+	overflow: hidden;
+	position: absolute;
+ }
+
+.side .fancy{
+	font-family: "Lobster", cursive;
+	font-size: 1.3em;
+	line-height: 0.8em;
+ }
+
+.side .title{
+	color: black;
+	font-family: "Rubik", sans-serif;
+	font-size: 8vw;
+	margin: 0px 15vw;
+	width: 70vw;
+ }
+
+
+
+#left-side .title {
+	color: white;
+ }
+
+#left-side .fancy {
+	color: yellow;
+ }
+
+#left-side {
+	background-color: purple;
+	z-index: 2;
+ }
+
+#right-side .title {
+	color: dark;
+ }
+
+#right-side .fancy {
+	color: white;
+ }
+
+#right-side {
+	background-color: yellow;
+	
+ }
