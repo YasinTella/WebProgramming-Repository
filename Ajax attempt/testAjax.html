@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Ajax Test</title>
+
+    <script type="text/javascript">
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", hello.txt, true)
+        xhr.onload = ajaxCallback;
+        xhr.send();
+        function ajaxCallback(event){
+            alert( "your file contains the text: " + event.target.responseText);
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
