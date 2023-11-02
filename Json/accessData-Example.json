@@ -1,4 +1,7 @@
-var garage = {
+{
+"garage": {
+    "cars": [
+        {
     "Kaluakalua":{
     "LicensePlate": "1HY456",
     "ParkingInfo": ["E9",3]
@@ -8,5 +11,7 @@ var garage = {
     "LicensePlate": "H589GH",
     "ParkingInfo": ["B3",1] 
     }
+        }
+    ]
 };
 garage.Travolt.ParkingInfo"[1];
