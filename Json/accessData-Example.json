@@ -1,10 +1,10 @@
 var garage = {
-    "Kaluakalua":{
+    Kaluakalua:{
     "LicensePlate": "1HY456",
     "ParkingInfo": ["E9",3]
     },
 
-    "Travolt":{
+    Travolt:{
     "LicensePlate": "H589GH",
     "ParkingInfo": ["B3",1] 
     }
